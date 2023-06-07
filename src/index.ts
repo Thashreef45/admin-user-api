@@ -31,7 +31,7 @@ class nodeApp{
         this.app.use(express.json());
         this.app.use(express.urlencoded({ extended: false }));
         this.app.use(compression());
-        this.app.use(nocache())
+        this.app.use(nocache()) 
     }
 
     private initialiseRoutes():void{
